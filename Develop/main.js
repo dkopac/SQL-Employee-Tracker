@@ -5,11 +5,11 @@ const format = require("format-number");
 
 // Connection to MySQL
 const connection = mysql.createConnection({
-  host: "localhost",
-  port: 3001,
-  user: "root",
-  password: "password",
-  database: "employee_trackerDB",
+  host: "127.0.0.1",
+  port: 3306,
+  user: "dkopac",
+  password: "Buddy711",
+  database: "employee_db",
 });
 
 // Connect to MySQL server and database
