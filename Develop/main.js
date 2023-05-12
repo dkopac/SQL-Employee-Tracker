@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const inquirer = require("inquirer");
 const cTable = require("console.table");
 const format = require("format-number");
@@ -6,8 +6,8 @@ const format = require("format-number");
 // Connection to MySQL
 const connection = mysql.createConnection({
   host: "127.0.0.1",
-  port: 5500,
-  user: "dkopac",
+  port: 3306,
+  user: "root",
   password: "Buddy711!",
   database: "employee_db",
 });
